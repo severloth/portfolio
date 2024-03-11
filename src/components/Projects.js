@@ -47,7 +47,6 @@ const Projects = () => {
   };
 
   const handleProjectChange = (projectName) => {
-    console.log(projectName);
     setProject(projectName);
   }
 
