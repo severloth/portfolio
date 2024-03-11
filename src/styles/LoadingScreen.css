@@ -1,0 +1,46 @@
+/* LoadingScreen.css */
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Pixelify+Sans:wght@400;500&display=swap');
+
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  background-image:url('../../public/mike-yukhtenko-wfh8dDlNFOk-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Asegura que esté por encima de otros elementos */
+  
+    /* Opcional: Agrega estilos para el texto "Cargando..." */
+    color: #fff;
+    font-size: 24px;
+    flex-direction: column;
+    font-family: Lato, sans-serif;
+
+  }
+  
+  .moon {
+    margin-right: 15px;
+    width: 100px;
+    height: 100px;
+    background-image: url('../../public/pajaro-y-ave-imagen-animada-0457.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-radius: 100%;
+    
+  }
+  .hidden {
+    display: none;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+

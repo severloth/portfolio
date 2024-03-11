@@ -28,12 +28,12 @@ const Main = () => {
     }
 
     return (
-        <div className="main" id='main'>
+        <div className="main" id='main' data-aos="fade-in">
           {particles}
-          <h1  data-aos="fade-in" data-aos-delay="300">
+          <h1  data-aos="fade-in" data-aos-delay="100">
             Facundo Gil <hr></hr>
             
-            <span className="speciality"  data-aos="fade-in" data-aos-delay="400">{speciality}</span>
+            <span className="speciality"  data-aos="fade-in" data-aos-delay="100">{speciality}</span>
           </h1>
         
           <a href='#about' className='flecha'>

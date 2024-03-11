@@ -10,26 +10,45 @@ import Component from './components/Footer';
 // eslint-disable-next-line no-unused-vars
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { useState } from 'react';
+import LoadingScreen from './components/LoadingScreen';
+import { useEffect } from 'react';
 
 
 
 function App() {
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    
+    setTimeout(() => {
+      setLoading(false);
+    }, 2500); 
+  }, []);
+
+  useEffect(() => {
+    if (!loading) {
+      AOS.init();
+    }
+  }, [loading]);
+
   return (
-    
     <div className="App">
-      
-      <ParticleA />
-      <Header />
-      <Main />
-      <AboutMe />
-      <Projects />
-      <OtherProjects />
-      <Component />
-
-
-    
+      {loading ? <LoadingScreen /> : (
+        <>
+          <ParticleA />
+          <Header />
+          <Main />
+          <AboutMe />
+          <Projects />
+          <OtherProjects />
+          <Component />
+        </>
+      )}
     </div>
   );
 }
+
 
 export default App;
