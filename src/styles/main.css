@@ -1,0 +1,157 @@
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    flex-direction: column;
+
+
+    
+}
+
+.speciality{
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    text-shadow: 3px 3px 3px #312a69;
+    transition: all 0.5s;
+  
+}
+.main h1{
+    font-size: 4rem;
+    color: #fff;
+    text-align: center;
+}
+
+
+.main .flecha{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 3%;
+    color: #fff;
+    font-size: 1.5rem;
+    background-image: url(../../public/flecha-hacia-abajo.png);
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: arrow 1s infinite;
+
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    justify-content: space-between;
+    padding-top: 60px;
+    
+
+    
+}
+
+.instagram, .github, .linkedin{
+    width: 30px;
+    height: 25px;
+    margin-bottom: 14px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.3s ease all;
+    background-position: center;
+
+
+}
+
+.instagram{
+    background-image: url('../../public/instagramm.png');
+    transform: scale(2);
+}
+
+.github{
+    background-image: url('../../public/githubb.png');
+    transform: scale(2);
+}
+
+.linkedin{
+    background-image: url('../../public/linkedinn.png');
+    transform: scale(2);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.instagram:hover{
+    transform: scale(2.1);
+}
+
+.github:hover{
+    transform: scale(2.1);
+}
+
+.linkedin:hover{
+    transform: scale(2.1);
+}
+
+
+
+@keyframes arrow {
+
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(20px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+    
+}
+
+@keyframes opacity{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@media (max-width: 699px) {
+    .main{
+        height: 100vh;
+        /*use the entire height of the screen*/
+        width: 100%;
+        height: 100vh;
+        box-sizing: none;
+        scroll-behavior: smooth;
+        flex-direction: column;
+    
+        
+
+    }
+    .speciality{
+        font-size: 1.5rem;
+    }
+    .main h1{
+        font-size: 3rem;
+    }
+    .redes{
+        padding-top: 20px;
+    }
+    .instagram, .github, .linkedin{
+        width: 20px;
+        height: 20px;
+    }
+    .flecha{
+        width: 60px;
+        height: 60px;
+    }
+}

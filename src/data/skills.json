@@ -1,0 +1,53 @@
+{
+    "skills": [
+      {
+        "id": 0,
+        "skillName": "PHP - Laravel",
+        "amount": "85"
+      },
+      {
+        "id": 1,
+        "skillName": "React.js",
+        "amount": "80"
+      },
+      {
+        "id": 2,
+        "skillName": "Java",
+        "amount": "70"
+      },
+      { "id": 3, "skillName": "Javascript", "amount": "98" },
+      {
+        "id": 4,
+        "skillName": "Node.js",
+        "amount": "80"
+      },
+      {
+        "id": 5,
+        "skillName": "API REST",
+        "amount": "100"
+      },
+      { "id": 6, "skillName": "Wordpress", "amount": "80" },
+      { "id": 7, "skillName": "SQL", "amount": "90" },
+      {
+        "id": 8,
+        "skillName": "Express",
+        "amount": "70"
+      },
+      {
+        "id": 9,
+        "skillName": "HTML/CSS  - Bootstrap",
+        "amount": "99"
+      },
+      {
+        "id": 10,
+        "skillName": "Python",
+        "amount": "70"
+      },
+      {
+        "id": 11,
+        "skillName": "AWS - Linux - Docker",
+        "amount": "78"
+      }
+    ]
+  }
+

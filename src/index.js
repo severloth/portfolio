@@ -3,8 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Aos from 'aos';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+Aos.init({
+  duration: 1000,
+  once: true
+});
+
 root.render(
   <React.StrictMode>
     <App />

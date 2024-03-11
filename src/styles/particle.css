@@ -1,0 +1,14 @@
+.particle {
+    width: 80px;
+    height: 100px;
+    background-image: url(../../public/pajaro-y-ave-imagen-animada-0457.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.5;
+    transform-origin: 50% 50%;
+    z-index: -100;
+}
+
