@@ -1,9 +1,9 @@
-import { Footer, FooterBrand, FooterCopyright, FooterDivider, FooterLink, FooterLinkGroup } from 'flowbite-react';
+import { Footer, FooterBrand, FooterCopyright, FooterDivider, FooterLink, FooterLinkGroup, DarkThemeToggle } from 'flowbite-react';
 
 function Component() {
   return (
     
-    <Footer bgDark container data-aos="fade-in">
+    <Footer container data-aos="fade-in">
       <div className="w-full text-center">
         <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
           <FooterBrand
@@ -19,6 +19,7 @@ function Component() {
         <FooterDivider />
         <FooterCopyright href="#" by="Facundo Gil" year={2024} />
       </div>
+      <DarkThemeToggle />
     </Footer>
   );
 }

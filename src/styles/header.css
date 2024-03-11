@@ -10,10 +10,10 @@
 }
 ::-webkit-scrollbar{
     width: 10px;
-    background-color: aqua;
+    background-color: #000000;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: #fff;
+    background-color: #52ceff;
     border-radius: 10px;
 }
 

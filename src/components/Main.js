@@ -28,7 +28,7 @@ const Main = () => {
     }
 
     return (
-        <div className="main" id='main' data-aos="fade-in">
+        <div className="main" id='main' data-aos="fade-in" data-aos-delay="200">
           {particles}
           <h1  data-aos="fade-in" data-aos-delay="100">
             Facundo Gil <hr></hr>

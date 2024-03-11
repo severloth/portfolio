@@ -39,7 +39,7 @@
 }
 
 .typewriter-start i {
-  background-color: #4a0086;
+  background-color: #007cad;
 }
 .typewriter > p {
   margin: 0;
@@ -95,7 +95,8 @@
   overflow: hidden;
   position: relative;
   display: flex;
-  background-color: #3e4555;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background:rgba(255, 255, 255, 0.2);
   border-radius: 2px;
   height: 30px;
   margin-bottom: 10px;
@@ -105,7 +106,8 @@
   display: flex;
   flex-direction: column;
   height: 30px;
-  background-color: #5e53c2;
+  background-color: #52ceff;
+
   border-radius: 2px 0px 0px 2px;
 }
 
@@ -126,7 +128,7 @@
     width: 80px;
     height: 30px;
     font-size: 12px;
-    background-color: #4a0086;
+    background-color: #007cad;
     font-weight: 600;
     color: white;
   }
@@ -155,7 +157,7 @@
     width: 80px;
     height: 30px;
     font-size: 12px;
-    background-color: #4a0086;
+    background-color: #007cad;
     font-weight: 600;
     color: white;
   }
@@ -195,7 +197,7 @@
     width: 65px;
     height: 30px;
     font-size: 10px;
-    background-color: #4a0086;
+    background-color: #007cad;
     font-weight: 600;
     color: white;
   }
