@@ -36,7 +36,7 @@ const Main = () => {
             <span className="speciality"  data-aos="fade-in" data-aos-delay="100">{speciality}</span>
           </h1>
         
-          <a href='#about' className='flecha'>
+          <a href='#about-content' className='flecha'>
           </a>
           <div className='redes'>
                    <a href='https://www.linkedin.com/in/facundo-martin-gil-0ab710203/'> <div className='linkedin'></div></a>
