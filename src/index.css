@@ -10,7 +10,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* background: linear-gradient(180deg, #101418 0%, rgba(0, 58, 117, 0.16) 100%); */
   /* background-color: rgba(0, 59, 117, 0.918); */
-  background-image:url('../public/mike-yukhtenko-wfh8dDlNFOk-unsplash.jpg');
+  background-image:url('../src/images/background.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
